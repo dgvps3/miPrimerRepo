@@ -1,0 +1,66 @@
+body{
+  background-image: url('MetroPE.jpg');
+  background-repeat: repeat;
+  background-size: 25% 25%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FD1119;
+  border: solid;
+  border-color: black;
+}
+
+li {
+  float: left;
+  border-right: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ff4d4d;
+}
+
+.active {
+  background-color: #330000;
+}
+
+.conjunto{
+  background-color: #FA544E;
+  margin: 15px 200px 15px 200px;
+  border-style: solid;
+  border-color: black;
+}
+
+h1{
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 30px;
+  border-bottom: solid;
+  border-color: #ff9999;
+  width: 99%;
+}
+
+.texto{
+  border-top: solid;
+  border-color: black;
+  padding: 10px 250px 10px 250px;
+  background-color:#F5A86F;
+  font-family: Cambria;
+}
+
+p{
+  font-family: Cambria;
+  color:
+}

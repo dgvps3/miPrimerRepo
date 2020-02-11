@@ -1,0 +1,150 @@
+body{
+  background-image: url('Londres.jpg');
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FD1119;
+  border: solid;
+  border-color: black;
+}
+
+li {
+  float: left;
+  border-right: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ff4d4d;
+}
+
+.active {
+  background-color: #330000;
+}
+
+h1{
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 30px;
+  border-bottom: solid;
+  border-color: #ff9999;
+  width: 67%;
+}
+
+p{
+  font-family: Cambria;
+  color:
+}
+
+.conjunto{
+  background-color: #FA544E;
+  margin: 15px 200px 15px 200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.texto{
+  border-top: solid;
+  border-color: black;
+  padding: 10px 250px 10px 250px;
+  background-color:#F5A86F;
+  font-family: Cambria;
+}
+
+.polaroid-images
+{
+	margin:10px 50px 10px 10px;
+  padding-left: 40px;
+	float: inherit;
+}
+.polaroid-images a
+{
+	background: white;
+	display: inline;
+	float: left;
+	margin: 0 15px 30px;
+	padding: 10px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:0;
+	position: relative;
+}
+.polaroid-images a:after {
+	color: #333;
+	font-size: 20px;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+.polaroid-images img {
+	display: block;
+	width: inherit;
+}
+
+.polaroid-images a:nth-child(1n)
+{
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+}
+.polaroid-images a:nth-child(2n)
+{
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+	transform: rotate(4deg);
+}
+.polaroid-images a:nth-child(3n) {
+	-webkit-transform: rotate(-24deg);
+	-moz-transform: rotate(-24deg);
+	transform: rotate(-24deg);
+}
+.polaroid-images a:nth-child(4n)
+{
+	-webkit-transform: rotate(14deg);
+	-moz-transform: rotate(14deg);
+	transform: rotate(14deg);
+}
+.polaroid-images a:nth-child(5n)
+{
+	-webkit-transform: rotate(-18deg);
+	-moz-transform: rotate(-18deg);
+	transform: rotate(-18deg);
+}
+.polaroid-images a:nth-child(6n) {
+	-webkit-transform: rotate(40deg);
+	-moz-transform: rotate(40deg);
+	transform: rotate(40deg);
+}
+.polaroid-images a:hover{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+	box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+º

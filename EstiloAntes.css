@@ -1,0 +1,48 @@
+body{
+  background-image: url('textura.jpg');
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FD1119;
+  border: solid;
+  border-color: black;
+}
+
+li {
+  float: left;
+  border-right: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.Active) {
+  background-color: #ff4d4d;
+}
+
+.Active {
+  background-color: #330000;
+}
+
+h1{
+  margin: 15px 200px 15px 200px;
+  font-size: 6em;
+}
+
+p{
+  margin: 15px 200px 15px 200px;
+
+}

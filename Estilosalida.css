@@ -1,0 +1,101 @@
+body{
+  background-image: url('Cordoba.jpg');
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FD1119;
+  border: solid;
+  border-color: black;
+}
+
+li {
+  float: left;
+  border-right: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ff4d4d;
+}
+
+.active {
+  background-color: #330000;
+}
+
+h1{
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 30px;
+  border-bottom: solid;
+  border-color: #ff9999;
+  width: 26%;
+}
+
+span{
+  color: red;
+  font-style: oblique;
+}
+
+.conjunto{
+  background-color: #FA544E;
+  margin: 15px 0px 15px 0px;
+  border-style: solid;
+  border-color: black;
+}
+
+#poema{
+  font-style: italic;
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+}
+
+.texto{
+  border-top: solid;
+  border-color: black;
+  padding: 10px 250px 10px 250px;
+  background-color:#F5A86F;
+  font-family: Cambria;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:
+}
+
+.flex-container > img {
+  height: 200px;
+  width: 200px;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.aero{
+  order: 1;
+  margin-top: 15px;
+}
+
+.conjunto{
+  order: 2;
+}
+
+.avion{
+  margin-top: 15px;
+  order: 3;
+}
